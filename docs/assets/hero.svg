@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430" viewBox="0 0 860 430" font-family="JetBrains Mono, ui-monospace, monospace">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="rgba(57,211,83,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="860" height="430" rx="14" fill="#0d1117" stroke="#1e2a33"/>
+  <rect x="1" y="1" width="858" height="428" rx="13" fill="url(#grid)"/>
+
+  <!-- left: hero copy -->
+  <text x="40" y="62" font-size="15" fill="#c9d1d9">
+    <tspan fill="#39d353">mhjahed@sylhet:~$</tspan> whoami
+  </text>
+  <text x="40" y="112" font-size="31" font-weight="800" fill="#e6edf3">MOKSOOD HOSSEN</text>
+  <text x="40" y="152" font-size="31" font-weight="800" fill="#39d353">JAHED</text>
+  <rect x="178" y="126" width="10" height="32" fill="#39d353">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="40" y="190" font-size="17" font-weight="600" fill="#9fefc0">&gt; Back-End Developer</text>
+  <text x="40" y="216" font-size="12" fill="#8b949e">django + react · real-time apps · security-first</text>
+
+  <!-- buttons -->
+  <rect x="40" y="246" width="132" height="36" rx="6" fill="#39d353"/>
+  <text x="106" y="269" font-size="12" font-weight="700" fill="#04140a" text-anchor="middle">view_projects</text>
+  <rect x="184" y="246" width="150" height="36" rx="6" fill="none" stroke="#39d353"/>
+  <text x="259" y="269" font-size="12" fill="#39d353" text-anchor="middle">download_resume</text>
+  <rect x="346" y="246" width="102" height="36" rx="6" fill="none" stroke="#39d353" stroke-opacity="0.6"/>
+  <text x="397" y="269" font-size="12" fill="#39d353" text-anchor="middle">hire_me</text>
+
+  <text x="40" y="316" font-size="11" fill="#4a5568">[os] ubuntu 24.04    [shell] zsh    [uptime] 4y+</text>
+  <text x="40" y="336" font-size="11" fill="#4a5568">[grid] sylhet · utc+6    [gpu] webgl2 · 60fps</text>
+
+  <!-- right: render window -->
+  <rect x="520" y="40" width="302" height="352" rx="10" fill="#010409" stroke="#1e2a33"/>
+  <rect x="521" y="41" width="300" height="28" rx="10" fill="#10161d"/>
+  <rect x="521" y="59" width="300" height="10" fill="#10161d"/>
+  <line x1="521" y1="69" x2="821" y2="69" stroke="#1e2a33"/>
+  <circle cx="543" cy="55" r="5" fill="#ff5f57"/>
+  <circle cx="561" cy="55" r="5" fill="#febc2e"/>
+  <circle cx="579" cy="55" r="5" fill="#28c840"/>
+  <text x="594" y="59" font-size="11" fill="#8b949e">render — three.js · webgl2</text>
+
+  <!-- 3d scene -->
+  <g transform="translate(671 235)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="16s" repeatCount="indefinite" additive="sum"/>
+      <ellipse rx="112" ry="30" transform="rotate(-18)" fill="none" stroke="#2ea043" stroke-width="1.2"/>
+      <ellipse rx="96" ry="24" transform="rotate(24)" fill="none" stroke="#196c2e" stroke-width="1"/>
+    </g>
+    <circle r="60" fill="rgba(57,211,83,0.05)"/>
+    <polygon points="60,0 30,52 -30,52 -60,0 -30,-52 30,-52" fill="none" stroke="#39d353" stroke-width="1.4"/>
+    <polygon points="52,30 0,60 -52,30 -52,-30 0,-60 52,-30" fill="none" stroke="#39d353" stroke-width="0.8" stroke-opacity="0.55"/>
+    <line x1="60" y1="0" x2="0" y2="0" stroke="#39d353" stroke-opacity="0.4"/>
+    <line x1="-30" y1="52" x2="0" y2="0" stroke="#39d353" stroke-opacity="0.4"/>
+    <line x1="30" y1="-52" x2="0" y2="0" stroke="#39d353" stroke-opacity="0.4"/>
+    <circle r="2.5" fill="#39d353"/>
+    <g fill="#9fefc0">
+      <circle cx="128" cy="-58" r="1.8"/><circle cx="-136" cy="40" r="1.8"/><circle cx="98" cy="96" r="1.5"/>
+      <circle cx="-104" cy="-92" r="1.5"/><circle cx="150" cy="26" r="1.4"/><circle cx="-64" cy="122" r="1.6"/>
+      <circle cx="58" cy="-128" r="1.6"/><circle cx="-156" cy="-24" r="1.4"/><circle cx="24" cy="140" r="1.5"/>
+      <circle cx="-24" cy="-140" r="1.5"/><circle cx="144" cy="70" r="1.4"/><circle cx="-86" cy="-116" r="1.4"/>
+    </g>
+  </g>
+  <text x="537" y="378" font-size="10" fill="#8b949e">[tris] ~3k · [rings] 2 · [halo] 260 n · [glow] on</text>
+</svg>

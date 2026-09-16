@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="400" viewBox="0 0 860 400" font-family="JetBrains Mono, ui-monospace, monospace">
+  <rect width="860" height="400" rx="14" fill="#05080b" stroke="#1e2a33"/>
+
+  <text x="40" y="60" font-size="14" font-weight="600" fill="#9fefc0">JAHED-OS v6.2.1 — boot sequence initiated</text>
+
+  <g font-size="14" fill="#adbac7">
+    <text x="40" y="95">&gt; checking memory .......................... <tspan fill="#39d353">[ok]</tspan></text>
+    <text x="40" y="129">&gt; mounting /dev/portfolio ................ <tspan fill="#39d353">[ok]</tspan></text>
+    <text x="40" y="163">&gt; loading modules  react@18 · three · motion <tspan fill="#39d353">[ok]</tspan></text>
+    <text x="40" y="197">&gt; uplink github.com/mhjahed .............. <tspan fill="#39d353">[200]</tspan></text>
+    <text x="40" y="231">&gt; compiling shaders ...................... <tspan fill="#39d353">[ok]</tspan></text>
+    <text x="40" y="265">&gt; phosphor calibration  #39d353 ........ <tspan fill="#39d353">[ok]</tspan></text>
+    <text x="40" y="299" fill="#9fefc0">&gt; interface online — welcome, guest</text>
+  </g>
+
+  <rect x="40" y="330" width="780" height="8" rx="4" fill="#1e2a33"/>
+  <rect x="40" y="330" width="780" height="8" rx="4" fill="#39d353">
+    <animate attributeName="width" values="120;780" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="40" y="362" font-size="11" fill="#39d353">boot complete — 100%</text>
+  <text x="820" y="362" font-size="11" fill="#8b949e" text-anchor="end">press any key to skip ▸</text>
+</svg>
